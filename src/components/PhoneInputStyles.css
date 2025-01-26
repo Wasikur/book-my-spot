@@ -1,0 +1,109 @@
+/* General container styling */
+.phone-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    padding: 16px;
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+  }
+  
+  /* Back button */
+  .back-button {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5f5f5;
+    border: none;
+    border-radius: 50%;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Content section */
+  .content {
+    color: black;
+    margin-top: 10rem;
+    text-align: left; /* Ensures left alignment */
+    width: 100%; /* Takes full container width */
+  }
+  
+  .title-phone {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 8px;
+  }
+  
+  .description {
+    color: #7e7e7e;
+    margin-top: 8px; /* Add spacing below the title */
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  
+  /* Input section */
+  .input-container {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 8px;
+    margin-top: 20px;
+  }
+  
+  .flag-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .flag-icon {
+    width: 24px;
+    height: 16px;
+  }
+  
+  .country-code {
+    margin-left: 8px;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  .phone-input {
+    flex: 1;
+    margin-left: 16px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+  }
+  
+  .clear-button {
+    background: none;
+    border: none;
+    font-size: 20px;
+    color: #aaa;
+    cursor: pointer;
+  }
+  
+  /* Proceed button */
+  .proceed-button {
+    background-color: #6c63ff;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 12px;
+    width: 100%;
+    cursor: pointer;
+    margin-top: auto;
+    transition: background-color 0.3s ease;
+  }
+  
+  .proceed-button:hover {
+    background-color: #5a54d8;
+  }
+  

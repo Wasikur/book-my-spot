@@ -1,0 +1,52 @@
+/* HomePageStyles.css */
+.home-page-container {
+    background-image: url("../assets/banner2.png"); 
+    background-size: cover; 
+    background-position: center; 
+    height: 100vh; 
+    display: flex; 
+    justify-content: center; 
+    padding-left: 3rem;
+    color: white; 
+    flex-direction: column;
+    gap: 20px; 
+}
+
+.text{
+    margin-top: 25rem;
+}
+
+.buttonContainer {
+  display: flex; 
+  gap: 2rem;
+}
+
+.skipButton {
+  background-color: white;
+  color: black;
+  padding: 15px 40px;
+  border: none;
+  font-size: larger;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.skipButton:hover {
+  background-color: #f2f2f2;
+}
+
+.nextButton {
+  background-color: #6466ff;
+  color: white;
+  padding: 15px 40px;
+  font-size: larger;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.nextButton:hover {
+  background-color: #4d50e1;
+}

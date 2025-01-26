@@ -1,0 +1,97 @@
+.otp-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+    background: #ffffff;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    margin-top: 8rem;
+    margin-left: 1.2rem;
+  }
+  
+  .back-button {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    color: #333;
+    cursor: pointer;
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+  }
+  
+  .otp-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 1rem 0;
+  }
+  
+  .otp-description {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 1.5rem;
+  }
+  
+  .otp-input-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 1.5rem 1.2rem;
+  }
+  
+  .otp-input {
+    width: 3rem;
+    height: 3rem;
+    text-align: center;
+    font-size: 1.5rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s;
+  }
+  
+  .otp-input:focus {
+    border: 2px solid #7a5ef8;
+    outline: none;
+    box-shadow: 0 4px 10px rgba(122, 94, 248, 0.3);
+  }
+  
+  .verify-button {
+    background: #7a5ef8;
+    color: #ffffff;
+    border: none;
+    border-radius: 30px;
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    width: 100%;
+  }
+  
+  .verify-button:hover {
+    background: #5a3ed8;
+  }
+  
+  @media (max-width: 768px) {
+    .otp-input {
+      width: 2.5rem;
+      height: 2.5rem;
+      font-size: 1.2rem;
+    }
+  
+    .otp-title {
+      font-size: 1.2rem;
+    }
+  
+    .otp-description {
+      font-size: 0.8rem;
+    }
+  
+    .verify-button {
+      font-size: 0.9rem;
+    }
+  }
