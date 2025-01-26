@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import Profile from "../assets/Profile.png";
+import Profile from "../assets/Profile1.jpeg";
 import "./VehiclePageStyles.css";
 import Car from "../assets/car.svg";
 import Bike from "../assets/bike.svg";
@@ -28,7 +28,7 @@ const VehiclePage = () => {
       <div className="header">
         <img src={Profile} alt="User" className="user-image" />
         <div className="user-info">
-          <p>Hello, Varun</p>
+          <p>Hello, Hrishi</p>
         </div>
 
         {/* Logout Button (Icon) */}
